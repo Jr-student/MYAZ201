@@ -14,12 +14,8 @@ export default function App() {
       <EmployeeList />
       <EmployeeAdd />
       <EmployeeUpdate />
-
-      {/* {employees.map((emp) => (
-      <p>{emp}</p>
-    ))} */}
     </div>
   );
 }
 
-//export default App;
+
