@@ -1,14 +1,17 @@
 import React, { useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import AppContext from "../../context/AppContext";
 
 export default function EmployeeUpdate() {
   const { employees, setList, selectedEmployee, setSelectedEmployee } =
     useContext(AppContext);
 
+  const navigate = useNavigate();
+
   const handleChange = (e) => {
     setSelectedEmployee({
       ...selectedEmployee,
-      [e.target.name] : e.target.value,
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -18,6 +21,7 @@ export default function EmployeeUpdate() {
       ...employees.filter((emp) => emp.id !== selectedEmployee.id),
       selectedEmployee,
     ]);
+    navigate("/");
   };
 
   return (
