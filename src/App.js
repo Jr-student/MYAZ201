@@ -10,6 +10,7 @@ export default function App() {
 
   return (
     <div>
+<<<<<<< HEAD
       <BrowserRouter>
         <nav>
           <div>
@@ -36,8 +37,14 @@ export default function App() {
       <p>{emp}</p>
     ))} */}
       </BrowserRouter>
+=======
+      <h1> {appName} </h1>
+      <EmployeeList />
+      <EmployeeAdd />
+      <EmployeeUpdate />
+>>>>>>> b5a91f59f293fd8aa7daa0adb4348af7f61ea6e3
     </div>
   );
 }
 
-//export default App;
+

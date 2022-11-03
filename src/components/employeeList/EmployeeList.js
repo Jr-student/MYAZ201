@@ -3,8 +3,7 @@ import AppContext from "../../context/AppContext";
 import Employee from "../employee/Employee";
 
 export default function EmployeeList() {
-  // props bir değeri başka bir dosyadaki koda göndermeye yarıyor.
-  //   const {employees} = props
+  
   const { employees, setList, setSelectedEmployee } = useContext(AppContext);
   const handleClearAll = () => {
     setList([]);

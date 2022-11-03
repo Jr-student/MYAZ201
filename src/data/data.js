@@ -5,5 +5,3 @@ export const data = [
     {id: 4, firstName: "Ali", lastName:"Şahin"},
     {id: 5, firstName: "Mustafa", lastName:"Ünlü"}
   ];
-
-  //export {employees};
