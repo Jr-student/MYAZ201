@@ -10,11 +10,5 @@ root.render(
     <AppProvider>
       <App />
     </AppProvider>
-<<<<<<< HEAD
-  </React.StrictMode>, // React.StrictMode içine ne yazılırsa proje oradan başlar.
-  // providrer içine aldığımız app.js children oluyor
-=======
-  </React.StrictMode> // React.StrictMode içine ne yazılırsa proje oradan başlar.
-  
->>>>>>> b5a91f59f293fd8aa7daa0adb4348af7f61ea6e3
+  </React.StrictMode>
 );
