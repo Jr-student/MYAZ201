@@ -31,8 +31,6 @@ function EmployeeAdd() {
       {
         id: employees.length + 1,
         ...values,
-        // firstName: e.target.firstName.value,
-        // lastName: e.target.lastName.value,
       },
     ]);
 
